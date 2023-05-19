@@ -1,0 +1,91 @@
+/* .title{
+    background-color: aqua;
+    color: blue !important;
+   }
+
+   #title{
+  background-color: bisque;
+  color: blueviolet;
+ }
+
+ h1 {
+   background-color: navy;
+   color: wheat;
+ }
+
+ *{
+   background-color: blueviolet;
+   color: wheat;
+   font-family: Franklin Gothic Medium !important;
+
+ } */
+/* ---------------------------------------------------------- */
+
+ /* Psuedo Code */
+
+ /* a:visited {
+    color: aqua; */
+ /* } */
+
+ /* a:active {
+    color: red;
+    font-size: xx-large;
+ }
+
+ a:link {
+    color:yellow;
+ }
+
+ a:hover{
+color: hotpink;
+ }
+
+ button:hover{
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+ }
+
+ button:active{
+    background-color: aquamarine;
+ } */
+/* table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small
+    font-style: oblique;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+th{
+    font-size: larger !important;
+    background-color: lightgreen;
+}
+th:hover{
+       background-color: hotpink; 
+    }
+tr:nth-child(even){
+    background-color: grey;
+}
+tr:nth-child(odd){  
+    background-color: lightgray;
+}
+tr:hover{
+    background-color: antiquewhite;
+}
+#title{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+#title:hover{
+    background-color: yellowgreen;
+    color: azure;
+}
+div>p{
+    color: blue;
+} */
