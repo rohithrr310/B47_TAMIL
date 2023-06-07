@@ -1,4 +1,90 @@
+.grand-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: yellow;
+    justify-content: space-between;
+}
+
+.parent{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-color: #5793f2;
+    margin: 10px;
+}
+
+/* 
+justify-content --> left to right
+align-items --> vertical alignment
+align-content ---> vertical positioning
+*/
+
+
+.child{
+    background-color: greenyellow;
+    text-align: center;
+    border: 1px solid black;
+    margin: 25px;
+    font-size: xx-large;
+    padding: 25px;
+}
 .position-wrapper{
     background-color: aqua;
-    margin: 100px 50px ;
+    height: 500px;
+}
+
+.position-title1{
+    position: absolute;
+    margin-top: 100px;
+    background-color: yellow;
+}
+
+.position-title2{
+    position: absolute;
+    margin-top: 50px;
+}
+
+.position-fixed{
+    position: fixed;
+    bottom: 1;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    background-color: palegreen;
+    font-size: x-large;
+    border-radius: 10px;
+}
+.position-sticky{
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inherit-wrapper{
+background-color: aqua;
+width: 700px;
+height: 500px;
+}
+
+.inherit-child{
+width: 800px;
+height: 300px;
+background-image: linear-gradient(to bottom, red,blue,greenyellow);
+}
+
+td>div{
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+td>div:hover{
+width: 100%;
+}
+.icon-color{
+    background-color: black;
 }
